@@ -24,12 +24,12 @@ juce_add_plugin(UCGInfinity16X
   COPY_PLUGIN_AFTER_BUILD TRUE)
 
 target_sources(UCGInfinity16X PRIVATE
-  Source/PluginProcessor.cpp
-  Source/PluginProcessor.h
-  Source/PluginEditor.cpp
-  Source/PluginEditor.h
-  Source/ContentScanner.cpp
-  Source/ContentScanner.h)
+  PluginProcessor.cpp
+  PluginProcessor.h
+  PluginEditor.cpp
+  PluginEditor.h
+  ContentScanner.cpp
+  ContentScanner.h)
 
 target_compile_definitions(UCGInfinity16X PUBLIC
   JUCE_WEB_BROWSER=0
