@@ -1,4 +1,4 @@
-#define AppName installer/UCG-Infinity-16X.iss
+#define AppName "installer/UCG-Infinity-16X.iss"
 #define AppVersion "0.1.0"
 #define Publisher "UCG Corp"
 
