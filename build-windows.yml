@@ -1,4 +1,4 @@
-name: Build Windows VST3 and Setup
+name: .github/workflows/build-windows.yml
 
 on:
   workflow_dispatch:
